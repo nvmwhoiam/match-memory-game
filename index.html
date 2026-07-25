@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/index.css">
+    <meta name="description"
+        content="Test your visual memory and color recognition skills in this exciting hex color matching game! Flip cards, memorize color codes, and find matching pairs.">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-32x32.png">
+    <meta name="author" content="nvmwhoiam">
+    <meta name="keywords"
+        content="hex color match, color memory game, match two hex, hue pairing game, color code puzzle">
+
+    <meta name="robots" content="noindex, nofollow">
+    <title>Color Memory Game</title>
+</head>
+
+<body>
+    <header class="main_header">
+        <h1>Color Memory Game</h1>
+    </header>
+
+    <main class="main_container">
+
+        <section class="section_container">
+
+            <div class="cards_container">
+                <div class="game-info">
+
+                    <div class="moves">
+                        Moves: <span id="moves">0</span>
+                    </div>
+
+                    <div class="matches">
+                        Matches: <span id="matches">0</span>
+                    </div>
+
+                    <button type="button" class="restart-btn" data-btn="restart">
+                        Restart
+                    </button>
+
+                </div>
+
+                <div class="game-grid" id="gameGrid"></div>
+            </div>
+
+            <div class="win-message" id="winMessage">
+                <h2>Congratulations!</h2>
+                <p>You won in <span id="finalMoves">0</span> moves!</p>
+                <button type="button" class="restart-btn" data-btn="restart">
+                    Play Again
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script type="module" src="/assets/js/script.js"></script>
+</body>
+
+</html>
