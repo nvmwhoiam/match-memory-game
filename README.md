@@ -11,6 +11,18 @@ Test your visual memory and color recognition skills in this exciting hex color 
 - **Restart Functionality**: Easily restart the game with new random colors
 - **Responsive Design**: Clean and modern UI with smooth card flip animations
 
+## How to Use
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/nvmwhoiam/match-memory-game.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd match-memory-game
+   ```
+3. Open `index.html` in your web browser to view the application.
+
 ## How to Play
 
 1. Click on any card to flip it and reveal its color
@@ -23,7 +35,7 @@ Test your visual memory and color recognition skills in this exciting hex color 
 ## Project Structure
 
 ```
-memorize/
+match-memory-game/
 ├── assets/
 │   ├── css/
 │   │   ├── general/       # General CSS utilities
@@ -60,10 +72,6 @@ The game uses a Map data structure to store card information with unique IDs:
 - Matched pairs are marked and cannot be flipped again
 - The game detects when all pairs are matched and displays a win message
 
-## Customization
-
-You can customize the game by modifying the constants in `script.js`:
-
 ```javascript
 const cardCount = 10;        // Number of color pairs
 const pairsPerValue = 2;     // Cards per color (always 2 for pairs)
@@ -73,7 +81,7 @@ To adjust color brightness, modify the `maxBrightness` value in the `randomDarkC
 
 ## Contact
 
-If you have any questions or need assistance, please do not hesitate to reach out. I apologize if any part of this setup is not clear; this is my first major project, and I am putting in continuous effort to improve it. Feel free to contact me at [info@sadevworks.com](mailto:info@sadevworks.com) or open an issue on the [GitHub Repository](https://github.com/nvmwhoiam/cookie-extension).
+If you have any questions or need assistance, please do not hesitate to reach out. I apologize if any part of this setup is not clear; this is my first major project, and I am putting in continuous effort to improve it. Feel free to contact me at [info@sadevworks.com](mailto:info@sadevworks.com) or open an issue on the [GitHub Repository](https://github.com/nvmwhoiam/match-memory-game).
 
 ## Contributing
 
